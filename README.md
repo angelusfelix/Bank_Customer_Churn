@@ -6,12 +6,12 @@ Objective = Make model machine learning to get characteristic customer who will 
 Metrics Model = Churn rate
 
 # EDA
-Shape dataset = 10000 rows x 11 columns (10 features and 1 target)
-Only feature credit_score and age have outliers
-Credit score, tenure, estimated salary are normal distributiom
-Age is positive distribution features
-Balance is bimodial 
-The customers who kept the most money at Bank AFS were customers from France, however, only 19% of the 4204 French customers survived from that country.
-Customers with male gender are the customers who register the most at Bank AFS, but those who still survive (do not churn) are dominated by female customers.
-There is no correlation among numerical feature
-The Scatterplot relates numerical features to one another. The insights obtained are that customers aged 40-70 years are customers who churn a lot, customers with a balance of USD 70,000 - USD 170,000 are also customers who are classified as churn a lot.
+1.Shape dataset = 10000 rows x 11 columns (10 features and 1 target).
+2.Only feature credit_score and age have outliers.
+3.Credit score, tenure, estimated salary are normal distributiom.
+4.Age is positive distribution features.
+5.Balance is bimodial. 
+6.The customers who kept the most money at Bank AFS were customers from France, however, only 19% of the 4204 French customers survived from that country.
+7.Customers with male gender are the customers who register the most at Bank AFS, but those who still survive (do not churn) are dominated by female customers.
+8.There is no correlation among numerical feature.
+9.The Scatterplot relates numerical features to one another. The insights obtained are that customers aged 40-70 years are customers who churn a lot, customers with a balance of USD 70,000 - USD 170,000 are also customers who are classified as churn a lot.
