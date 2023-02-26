@@ -40,3 +40,12 @@ Download data = https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-
 - g. Random Forest Classifier : 1.00 and 0.487 : Overfit
 - h. Naive Bayes : 0.734 and 0.732 : Best fit.
 From 8 alghoritms that i have done, i choose naive bayes, cause the recall gap is smallest, and then the value of False Negative is smallest too
+
+# Bussiness Recommendation
+1. Give promotion to customer who have the bank card (products no 4), customer who have balance USD70000 - USD170000 will get platinum bank card with discount prices
+2. Give recommendation to customer 40-70 years old, make sure transactions via cell phones, ATMs, and tellers are easy for them
+3. Check through the news, or directly what is happening in each country. There may be economic problems and it could be that politics affects the value of the currency
+
+# Bussiness Assumption
+Before Machine Learning : 20.39% customer churn
+After Machine Learning : 20.39% churn x 0.72 Recall Test = 14% customer churn
